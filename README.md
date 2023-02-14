@@ -103,7 +103,7 @@ a2ensite laravel.conf
 
 Step 18 : Reload Apache
 ````javascript
-service apache2 reload
+systemctl reload apache2
 ````
 
 Step 19 : Reload Apache
