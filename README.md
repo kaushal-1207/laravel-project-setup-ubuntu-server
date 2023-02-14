@@ -61,22 +61,17 @@ Step 12 : To Check Laravel Framework Version
 php artisan --v
 ````
 
-Step 13 : To Check Laravel Framework Version
-````javascript
-php artisan --v
-````
-
-Step 14 :
+Step 13 :
 ````javascript
 chown -R www-data:www-data /var/www/html/your_project_directory_name
 ````
 
-Step 15 :
+Step 14 :
 ````javascript
 chmod -R 775 /var/www/html/your_project_directory_name/storage
 ````
 
-Step 16 :
+Step 15 :
 ````javascript
 nano /etc/apache2/sites-available/laravel.conf
 ````
@@ -96,22 +91,22 @@ CustomLog ${APACHE_LOG_DIR}/access.log combined
 
 Now Press Ctrl+X & then Press Y.
 
-Step 17 :
+Step 16 :
 ````javascript
 a2ensite laravel.conf
 ````
 
-Step 18 : Reload Apache
+Step 17 : Reload Apache
 ````javascript
 systemctl reload apache2
 ````
 
-Step 19 : Reload Apache
+Step 18 : Reload Apache
 ````javascript
 a2enmod rewrite
 ````
 
-Step 20 : Restart Apache
+Step 19 : Restart Apache
 ````javascript
 systemctl restart apache2
 ````
